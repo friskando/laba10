@@ -1,0 +1,21 @@
+program Calculator;
+
+var
+  a, b, sum: integer;
+
+begin
+  Writeln('Калькулятор сложения двух чисел');
+  Writeln('--------------------------------');
+  
+  Write('Введите первое число: ');
+  Readln(a);
+  
+  Write('Введите второе число: ');
+  Readln(b);
+  
+  sum := a + b;
+  
+  Writeln('Результат: ', a, ' + ', b, ' = ', sum);
+  Writeln('Нажмите Enter для выхода...');
+  Readln;
+end.
