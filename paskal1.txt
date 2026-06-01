@@ -1,0 +1,8 @@
+program Test;
+var
+  a: integer;
+begin
+  a := 34;
+  a := 35;
+  a := 10;
+end.
